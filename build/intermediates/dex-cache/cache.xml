@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da6d2267f2b60a9b51a26d00572447989d6f2136">
+        <dex dex="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_147b34f52d49190deeace62d648a2a53faf33d84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b795ef5945b935dc1362e37b068cde6e59d329f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\love\.android\build-cache\45754dc308ad935a5f920828897159606c37d319\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dcf9406f9f496819ee8a87874e8615b7beac84dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\love\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_a4a550b5931b47649fa70fe85383e8b5983975a9\classes.dex" />
+    </item>
+
+</items>
