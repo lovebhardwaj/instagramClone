@@ -8,6 +8,7 @@
  */
 package com.parse.starter;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -33,6 +34,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   boolean signUpModeActive = true;
   TextView changeModeTextView;
   EditText passwordEditText;
+  ImageView background;
+  ImageView logo;
+
+  public void showUserList(){
+    Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+    startActivity(intent);
+  }
 
   @Override
   public boolean onKey(View view, int i, KeyEvent keyEvent) {
@@ -75,7 +83,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);//Reference to edit text widgets
 
-    passwordEditText = (EditText) findViewById(R.id.passwordEditText);
 
 
     //Check to see if they are empty
@@ -99,6 +106,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (e == null) {//Check if the error is null or in other words signup was successful
 
               Toast.makeText(MainActivity.this, "Signup successful", Toast.LENGTH_SHORT).show();
+              showUserList();
 
             } else {
 
@@ -112,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           @Override
           public void done(ParseUser user, ParseException e) {
             if (user != null || e == null){
+              showUserList();
               Log.d(TAG, "Login successful");
             }else {
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
@@ -130,11 +139,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
+    background = (ImageView) findViewById(R.id.backgroundImage);
+    logo = (ImageView) findViewById(R.id.instaLogoImageView);
     changeModeTextView = (TextView) findViewById(R.id.changeModeTextView);
+    passwordEditText = (EditText) findViewById(R.id.passwordEditText);
 
-    ImageView background = (ImageView) findViewById(R.id.background_image_view);
-    ImageView logo = (ImageView) findViewById(R.id.instaLogoImageView);
+
 
     background.setOnClickListener(this);
     logo.setOnClickListener(this);
@@ -143,6 +153,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     changeModeTextView.setOnClickListener(this);
 
     passwordEditText.setOnKeyListener(this);
+
+    //If user already logged in need to show the friend list
+    if (ParseUser.getCurrentUser() != null){
+
+      showUserList();
+    }
 
 
 

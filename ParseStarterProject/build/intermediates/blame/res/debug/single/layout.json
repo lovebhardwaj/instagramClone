@@ -1,11 +1,11 @@
 [
     {
-        "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
-        "source": "C:\\Users\\love\\.android\\build-cache\\e77b8fe4697961d1f786a15e7003b9e2fcc15af7\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
-    },
-    {
         "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\love\\.android\\build-cache\\d387b284adbdd78620efa3ef67d4492463d5e136\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\love\\.android\\build-cache\\e77b8fe4697961d1f786a15e7003b9e2fcc15af7\\output\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
     },
     {
         "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -110,6 +110,10 @@
     {
         "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\love\\.android\\build-cache\\d387b284adbdd78620efa3ef67d4492463d5e136\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_list.xml",
+        "source": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\src\\main\\res\\layout\\activity_user_list.xml"
     },
     {
         "merged": "S:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",

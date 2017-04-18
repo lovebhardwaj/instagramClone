@@ -1,4 +1,4 @@
-#Mon Apr 17 13:09:00 CST 2017
+#Mon Apr 17 18:22:04 CST 2017
 base.0=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
 renamed.0=classes.dex
 file.0=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

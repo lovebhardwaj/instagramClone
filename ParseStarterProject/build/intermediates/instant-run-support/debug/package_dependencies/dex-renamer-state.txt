@@ -1,4 +1,4 @@
-#Mon Apr 17 13:08:59 CST 2017
+#Mon Apr 17 18:22:04 CST 2017
 file.60=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_78768a945a6f4ab245d45c13521943292b22957b\\classes.dex
 file.59=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_293772dc1403a3f079b7e9a2d19ca8f095c356b9\\classes.dex
 file.58=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4aa725245dba92c27f97f4c4f02e52d8c27f6d09\\classes.dex

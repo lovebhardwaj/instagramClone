@@ -1,4 +1,4 @@
-#Mon Apr 17 13:48:39 CST 2017
+#Mon Apr 17 18:22:04 CST 2017
 base.0=S\:\\AndroidCompleteNCourse\\parseproject\\instaClone\\ParseStarterProject\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_147b34f52d49190deeace62d648a2a53faf33d84
 renamed.1=classes2.dex
 renamed.0=classes.dex

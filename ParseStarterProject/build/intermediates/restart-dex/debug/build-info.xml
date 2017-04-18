@@ -6,57 +6,57 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1492458516931"
+    timestamp="1492475881639"
     token="9210607045150241345"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="291" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="20" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
 
     <artifact
-        location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-        type="SPLIT_MAIN" />
+        location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1492456118564"
+        timestamp="1492474909071"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -70,28 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492458443302"
+        timestamp="1492475881639"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1492458516931"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="S:\AndroidCompleteNCourse\parseproject\instaClone\ParseStarterProject\build\outputs\apk\ParseStarterProject-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
